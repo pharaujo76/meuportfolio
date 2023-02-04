@@ -272,16 +272,29 @@
 
 @media (max-width: 688px){
 
+    body {
+        overflow-x: hidden;
+    }
+
     #apresentacao { 
         background: #121212;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         text-align: center;
+        font-size: 16px;
+    }
+
+    #linkedin {
+        width: 20px;
     }
 
     .logo {
         margin-right: 310px;     
+    }
+
+    img#sobre-foto {
+        height: 266px;
     }
 
     .textos {
@@ -298,7 +311,7 @@
 
     #nomepedro {
         margin: 0;
-        font-size: 40px;
+        font-size: 33px;
         }
 
     #pedro {
@@ -317,7 +330,7 @@
     }
 
     div.texto-sobre {
-        margin-top: 390px;
+        margin-top: 335px;
         width: 380px;
         line-height: 27px;
         padding: 30px;
