@@ -3,6 +3,10 @@
     --secundary: #121212;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .container-habilidades {
     width: 100%;
     margin: 0;

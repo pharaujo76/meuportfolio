@@ -4,6 +4,10 @@
     --terceiro: #1b1b1b;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 div.container-sobre {
     background-color: #151515;
     width: 100%;

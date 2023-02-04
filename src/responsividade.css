@@ -272,8 +272,8 @@
 
 @media (max-width: 688px){
 
-    body {
-        overflow-x: hidden;
+    .arrows {
+        position: relative;
     }
 
     #apresentacao { 
@@ -478,6 +478,11 @@
     .process-scetion .slider-nav-item {
         width: 45px;
     }
+
+    body {
+        overflow-x: hidden;
+    }
+
     @media only screen and (max-width: 300px) {
         .process-scetion .slider-nav-item
         {
