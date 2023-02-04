@@ -480,7 +480,7 @@
     }
 
     body {
-        overflow-x: initial;
+        overflow-y: hidden;
     }
 
     @media only screen and (max-width: 300px) {
