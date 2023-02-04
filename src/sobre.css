@@ -1,0 +1,149 @@
+:root {
+    --primary: #03e9f4;
+    --secundary: #121212;
+    --terceiro: #1b1b1b;
+}
+
+div.container-sobre {
+    background-color: #151515;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 110px;
+}
+
+div.texto-sobre {
+    background-color: #151515;
+    margin-top: 130px;
+    color: rgba(255, 255, 255, 0.699);
+    width: 50%;
+    margin-left: 200px;
+}
+
+img#sobre-foto {
+    margin-top: 130px;
+    width: 100%;
+    min-width: 230px;
+    max-width: 320px;
+    margin-left: 200px;
+    box-sizing: border-box;
+    background-color: #202020bd;
+    border-left-color: var(--primary);
+    border-left-style: outset;
+    border-left-width: 5px;
+    opacity: 75%;
+    margin-bottom: 90px;
+    z-index: 0;
+}
+
+#principal {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #C4C4C4;
+}
+
+#secundario {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    color: #C4C4C4;
+    font-weight: bold;
+}
+
+#texto {
+    font-size: 1.1rem;
+    line-height: 35px;
+    padding: 2px;
+    width: 80%;
+    
+}
+
+.frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+  }
+  button {
+    margin: 0px;
+    margin-right: 23px;
+    margin-top: 10px;
+  }
+  .custom-btn {
+    font-size: 14px;
+    letter-spacing: 4px;
+    width: 160px;
+    height: 40px;
+    color: #C4C4C4;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(128, 113, 113, 0.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .btn-15 {
+    background: #000000;
+    border: none;
+    z-index: 0;
+    display: inline-block;
+  }
+  .btn-15:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #663dff;
+    border-radius: 5px;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+  }
+  .btn-15:hover {
+    color: #fff;
+  }
+  .btn-15:hover:after {
+    left: 0;
+    width: 100%;
+  }
+  .btn-15:active {
+    top: 2px;
+  }
+
+  #github {
+    width: 22px;
+    display: block;
+    margin-right: 20px;
+  }
+
+#git {
+  width: 20px;
+  margin-left: 25px;
+  margin-top: -17px;
+  margin-bottom: 40px;
+}
+
+#curriculo {
+  width: 22px;
+  display: block;
+  margin-right: 20px;
+  margin-left: -5px;
+}
+
+#curi {
+  width: 20px;
+  margin-left: 25px;
+  margin-top: -17px;
+  margin-bottom: 40px;
+  letter-spacing: 3px;
+}

@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+:root {
+    --primary: #03e9f4;
+    --secundary: #121212;
+    --terceiro: #1b1b1b;
+    --quarta: #00D2DF;
+}
+
+.projetos {
+    padding-top: 20px;
+    background-color: var(--terceiro);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+    padding: 6.5% 15%;
+    min-height: 35vh;
+    padding-bottom: 220px;
+    font-family: 'Inter', sans-serif;
+    line-height: 26px;
+}
+
+.projetos-card h1 {
+    margin-bottom: 2rem;
+    font-size: 30px;
+}
+
+.projetos-card {
+    width: 100%;
+    color: #C4C4C4;
+}
+;
+.projetos-card h2 {
+    font-size: 1.8rem;
+    margin: 2.5rem 0;
+}
+
+#android {
+    width: 400px;
+    height: 180px;
+    border-left-color: var(--primary);
+    border-left-style: outset;
+    border-left-width: 7px;
+    max-width: 400px;
+    opacity: 40%;
+    transition: 0.3s;
+    margin-bottom: 2rem;
+}
+
+#tlou {
+    width: 417px;
+    height: 180px;
+    border-left-color: var(--primary);
+    border-left-style: outset;
+    border-left-width: 7px;
+    max-width: 400px;
+    opacity: 55%;
+    transition: 0.3s;
+    margin-bottom: 2rem;
+}
+
+#netflix {
+  width: 400px;
+  height: 180px;
+  border-left-color: var(--primary);
+  border-left-style: outset;
+  border-left-width: 7px;
+  max-width: 400px;
+  opacity: 40%;
+  transition: 0.3s;
+  margin-bottom: 2rem;
+}
+
+
+#landingpage {
+  width: 417px;
+  height: 180px;
+  border-left-color: var(--primary);
+  border-left-style: outset;
+  border-left-width: 7px;
+  max-width: 400px;
+  opacity: 55%;
+  transition: 0.3s;
+  margin-bottom: 2rem;
+}
+
+.paragrafoprojeto {
+  margin-bottom: 2rem;
+}
+
+section span {
+    color: var(--quarta);
+    font-size: 14px;
+}
+
+.btn {
+    --border-color: linear-gradient(-45deg, #ffae00, #7e03aa, #00fffb);
+    --border-width: .125em;
+    --curve-size: .5em;
+    --blur: 30px;
+    --bg: #080312;
+    --color: #ffffff;
+    color: var(--color);
+      /* use position: relative; so that BG is only for .btn */
+    position: relative;
+    isolation: isolate;
+    display: inline-grid;
+    place-content: center;
+    padding: .5em 1.5em;
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .6);
+    width: 175px;
+    height: 40px;
+    margin-top: 20px;
+    clip-path: polygon(
+              /* Top-left */
+              0% var(--curve-size),
+  
+              var(--curve-size) 0,
+              /* top-right */
+              100% 0,
+              100% calc(100% - var(--curve-size)),
+  
+              /* bottom-right 1 */
+              calc(100% - var(--curve-size)) 100%,
+              /* bottom-right 2 */
+              0 100%);
+    transition: color 250ms;
+  }
+  
+  .btn::after,
+  .btn::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+  }
+  
+  .btn::before {
+    background: var(--border-color);
+    background-size: 300% 300%;
+    animation: move-bg7234 5s ease infinite;
+    z-index: -2;
+    cursor: pointer;
+  }
+  
+  @keyframes move-bg7234 {
+    0% {
+      background-position: 31% 0%
+    }
+  
+    50% {
+      background-position: 70% 100%
+    }
+  
+    100% {
+      background-position: 31% 0%
+    }
+  }
+  
+  .btn::after {
+    background: var(--bg);
+    z-index: -1;
+    clip-path: polygon(
+              /* Top-left */
+              var(--border-width) 
+              calc(var(--curve-size) + var(--border-width) * .5),
+  
+              calc(var(--curve-size) + var(--border-width) * .5) var(--border-width),
+  
+              /* top-right */
+              calc(100% - var(--border-width)) 
+              var(--border-width),
+  
+              calc(100% - var(--border-width)) 
+              calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),
+  
+              /* bottom-right 1 */
+              calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) calc(100% - var(--border-width)),
+              /* bottom-right 2 */
+              var(--border-width) calc(100% - var(--border-width)));
+    transition: clip-path 500ms;
+  }
+  
+  .btn:where(:hover, :focus)::after {
+    clip-path: polygon(
+                  /* Top-left */
+                  calc(100% - var(--border-width)) 
+  
+                  calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+      
+                  calc(100% - var(--border-width))
+  
+                  var(--border-width),
+      
+                  /* top-right */
+                  calc(100% - var(--border-width))
+  
+                   var(--border-width),
+      
+                  calc(100% - var(--border-width)) 
+  
+                  calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),
+      
+                  /* bottom-right 1 */
+                  calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) 
+                  calc(100% - var(--border-width)),
+  
+                  /* bottom-right 2 */
+                  calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
+                  calc(100% - var(--border-width)));
+    transition: 200ms;
+  }
+  
+  .btn:where(:hover, :focus) {
+    color: #fff;
+  }
+
+  #link {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    width: 19px;
+  }
+
+  #visu {
+    cursor: pointer;
+    color: #C4C4C4;
+  }
+
+  #embrevep {
+    color: #C4C4C4;
+  }
