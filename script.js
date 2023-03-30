@@ -187,7 +187,7 @@ function entrando6 () {
     var img = document.getElementById('enter6');
     img.src = "src/imagens/imglinguagens/reactfoxp.svg"
     img.style.width = '77px'
-    p.innerHTML = "<strong>React (Em breve)</strong><br> <br>É uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário.  "
+    p.innerHTML = "<strong>React</strong><br> <br>É uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário.  "
     p.style.marginTop = '-29px'
 }
 
