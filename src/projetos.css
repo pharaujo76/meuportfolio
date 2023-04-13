@@ -75,6 +75,17 @@ body {
   margin-bottom: 2rem;
 }
 
+#login {
+    width: 400px;
+    height: 180px;
+    border-left-color: var(--primary);
+    border-left-style: outset;
+    border-left-width: 7px;
+    max-width: 400px;
+    opacity: 40%;
+    transition: 0.3s;
+    margin-bottom: 2rem;
+}
 
 #landingpage {
   width: 417px;

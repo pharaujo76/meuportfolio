@@ -243,16 +243,16 @@ function leavenetflix () {
     imgtlou.style.borderLeftColor = '#03e9f4'
 }
 
-function enterlanding () {
-    var imgtlou = document.getElementById('landingpage');
-    imgtlou.style.opacity = '90%';
-    imgtlou.style.borderLeftColor = 'purple'
+function enterlogin () {
+    var imglogin = document.getElementById('login');
+    imglogin.style.opacity = '90%';
+    imglogin.style.borderLeftColor = 'purple'
 }
 
-function leavelanding () {
-    var imgtlou = document.getElementById('landingpage');
-    imgtlou.style.opacity = '55%';
-    imgtlou.style.borderLeftColor = '#03e9f4'
+function leavelogin () {
+    var imglogin = document.getElementById('login');
+    imglogin.style.opacity = '55%';
+    imglogin.style.borderLeftColor = '#03e9f4'
 }
 
 function typeWrite(elemento){
@@ -266,5 +266,67 @@ function typeWrite(elemento){
 
   });
 }
+
 const titulo = document.querySelector('#nomepedro');
 typeWrite(titulo);
+
+const cardWidth = 500,
+  degIncrement = 6,
+  card = document.getElementById("pedro");
+
+const getRotateDeg = (input) => {
+  if (input < cardWidth * 0.33) {
+    return `-${degIncrement * 3}deg`;
+  } else if (input >= cardWidth * 0.33 && input < cardWidth * 0.66) {
+    return `-${degIncrement}deg`;
+  } else if (input >= cardWidth * 0.66 && input < cardWidth * 0.5) {
+    return "0deg";
+  } else if (input >= cardWidth * 0.5 && input < cardWidth * 0.33) {
+    return `${degIncrement}deg`;
+  } else {
+    return `${degIncrement * 3}deg`;
+  }
+};
+
+const onMouseMove = (event) => {
+  const { target } = event;
+  const rect = target.getBoundingClientRect();
+
+  const rotateX = getRotateDeg(event.clientY - rect.top);
+  const rotateY = getRotateDeg(event.clientX - rect.left);
+
+  card.style.transform = `rotateX(${rotateX}) rotateY(${rotateY})`;
+};
+
+const onMouseLeave = () => {
+  card.style.transform = `none`;
+};
+
+const h1 = document.getElementsByClassName("textos");
+const banner = document.getElementsByClassName("banner");
+const button = document.getElementsByClassName("botao");
+
+const onScroll = (event) => {
+  const scrollPosition = event.target.scrollingElement.scrollTop;
+  if (scrollPosition > 150) {
+    banner.style.backgroundSize = "150%";
+    h1.style.opacity = 0;
+    h1.style.translate = "0 -50px";
+    h1.style.scale = "0.9";
+    button.style.opacity = 0;
+    button.style.translate = "0 -50px";
+    button.style.scale = "0.8";
+  } else {
+    banner.style.backgroundSize = "180%";
+    h1.style.opacity = 1;
+    h1.style.translate = 0;
+    h1.style.scale = 1;
+    button.style.opacity = 1;
+    button.style.translate = 0;
+    button.style.scale = 1;
+  }
+};
+
+document.addEventListener("scroll", onScroll);
+
+
