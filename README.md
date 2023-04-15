@@ -1,7 +1,7 @@
 # Portfólio
 
 ## Descrição
-Projeto desenvolvido com intuito de mostrar meu currículo com habilidades, projetos e formas de contato.
+Projeto desenvolvido com intuito de mostrar meu currículo com habilidades, projetos e também formas de contato.
 
 ### Link de produção: https://pedroaraujo76.github.io/portfolio/
 
