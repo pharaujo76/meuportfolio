@@ -135,48 +135,48 @@ function saindo3 () {
 }
 
 function entrando4 () {
-    var img = document.getElementById('enter4');
-    img.src = "src/imagens/imglinguagens/gitfixo.svg"
-    img.style.width = '77px'
-    p.innerHTML = "<strong>GitHub</strong><br> <br>é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git."
-    p.style.marginTop = '-29px'
+  var img = document.getElementById('enter4');
+  img.src = "src/imagens/imglinguagens/python_colorido.png"
+  img.style.width = '77px'
+  p.innerHTML = "<strong>Python</strong><br> <br>É uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte."
+  p.style.marginTop = '-29px'
 }
 
 function clicando4 () {
-    var img = document.getElementById('enter4');
-    img.src = "src/imagens/imglinguagens/gitfixo.svg"
-    img.style.width = '77px'
-    p.innerHTML = "<strong>GitHub</strong><br> <br>é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git."
-    p.style.marginTop = '-29px'
+  var img = document.getElementById('enter4');
+  img.src = "src/imagens/imglinguagens/python_colorido.png"
+  img.style.width = '77px'
+  p.innerHTML = "<strong>Python</strong><br> <br>É uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte."
+  p.style.marginTop = '-29px'
 }
 
 function saindo4 () {
-    var img = document.getElementById('enter4');
-    img.src = "src/imagens/imglinguagens/giithub.svg";
-    img.style.width = '77px'
-    p.innerHTML = "*Click ou passe o mouse em cima de cada habilidade para ler a descrição.*"
-    p.style.marginTop = '25px'
+  var img = document.getElementById('enter4');
+  img.src = "src/imagens/imglinguagens/python.png";
+  img.style.width = '77px'
+  p.innerHTML = "*Click ou passe o mouse em cima de cada habilidade para ler a descrição.*"
+  p.style.marginTop = '25px'
 }
 
 function entrando5 () {
     var img = document.getElementById('enter5');
-    img.src = "src/imagens/imglinguagens/bootstrap.svg"
+    img.src = "src/imagens/imglinguagens/docker_colorido.png"
     img.style.width = '77px'
-    p.innerHTML = "<strong>Bootstrap</strong><br> <br>É um framework com código-fonte aberto para desenvolvimento de aplicações web."
+    p.innerHTML = "<strong>Docker</strong><br> <br>É um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres."
     p.style.marginTop = '-29px'
 }
 
 function clicando5 () {
     var img = document.getElementById('enter5');
-    img.src = "src/imagens/imglinguagens/bootstrap.svg"
+    img.src = "src/imagens/imglinguagens/docker_colorido.png"
     img.style.width = '77px'
-    p.innerHTML = "<strong>Bootstrap</strong><br> <br>É um framework com código-fonte aberto para desenvolvimento de aplicações web."
+    p.innerHTML = "<strong>Docker</strong><br> <br>É um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres."
     p.style.marginTop = '-29px'
 }
 
 function saindo5 () {
     var img = document.getElementById('enter5');
-    img.src = "src/imagens/imglinguagens/bootstrap.png";
+    img.src = "src/imagens/imglinguagens/docker.png";
     img.style.width = '77px'
     p.innerHTML = "*Click ou passe o mouse em cima de cada habilidade para ler a descrição.*"
     p.style.marginTop = '25px'
@@ -195,7 +195,7 @@ function clicando6 () {
     var img = document.getElementById('enter6');
     img.src = "src/imagens/imglinguagens/reactfoxp.svg"
     img.style.width = '77px'
-    p.innerHTML = "<strong>React (Em breve) </strong><br> <br>É uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário. "
+    p.innerHTML = "<strong>React.js </strong><br> <br>É uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário. "
     p.style.marginTop = '-29px'
 }
 
