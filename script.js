@@ -162,7 +162,7 @@ function entrando5 () {
     var img = document.getElementById('enter5');
     img.src = "src/imagens/imglinguagens/docker_colorido.png"
     img.style.width = '77px'
-    p.innerHTML = "<strong>Docker</strong><br> <br>É um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres."
+    p.innerHTML = "<strong>Docker</strong><br> <br>É um conjunto de serviços de plataforma que usam virtualização de sistema operacional para entregar software em contêineres."
     p.style.marginTop = '-29px'
 }
 
@@ -170,7 +170,7 @@ function clicando5 () {
     var img = document.getElementById('enter5');
     img.src = "src/imagens/imglinguagens/docker_colorido.png"
     img.style.width = '77px'
-    p.innerHTML = "<strong>Docker</strong><br> <br>É um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres."
+    p.innerHTML = "<strong>Docker</strong><br> <br>É um conjunto de serviços de plataforma que usam virtualização de sistema operacional para entregar software em contêineres."
     p.style.marginTop = '-29px'
 }
 
