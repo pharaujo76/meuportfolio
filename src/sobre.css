@@ -15,6 +15,7 @@ div.container-sobre {
     display: flex;
     flex-direction: row;
     padding-bottom: 110px;
+    justify-content: center;
 }
 
 div.texto-sobre {
