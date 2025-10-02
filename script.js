@@ -207,6 +207,31 @@ function saindo6 () {
     p.style.marginTop = '25px'
 }
 
+function entrando7 () {
+    var img = document.getElementById('enter7');
+    img.src = "src/imagens/imglinguagens/monitor.png"
+    img.style.width = '77px'
+    p.innerHTML = "<strong>CyberSecurity, Monitoramento, BackEnd e Banco de dados </strong><br> <br>Tenho experiência com segurança da informação, monitoramento de sistemas, desenvolvimento de aplicações back-end e gerenciamento de bancos de dados, aplicando boas práticas e soluções eficientes em projetos reais tendo uso de Zabbix, Grafana, Elastic, Linux, Postgres, Airflow, Docker, Docker Compose, C# e Shellscript.  "
+    p.style.marginTop = '-29px'
+}
+
+function clicando7 () {
+    var img = document.getElementById('enter7');
+    img.src = "src/imagens/imglinguagens/monitor.png";
+    img.style.width = '77px'
+    p.innerHTML = "<strong>CyberSecurity, Monitoramento, BackEnd e Banco de dados </strong><br> <br>Tenho experiência com segurança da informação, monitoramento de sistemas, desenvolvimento de aplicações back-end e gerenciamento de bancos de dados, aplicando boas práticas e soluções eficientes em projetos reais tendo uso de Zabbix, Grafana, Elastic, Linux, Postgres, Airflow, Docker, Docker Compose, C# e Shellscript."
+    p.style.marginTop = '-29px'
+}
+
+function saindo7 () {
+    var img = document.getElementById('enter7');
+    img.src = "src/imagens/imglinguagens/monitor.png";
+    img.style.width = '77px'
+    p.innerHTML = "*Click ou passe o mouse em cima de cada habilidade para ler a descrição.*"
+    p.style.marginTop = '25px'
+}
+
+
 function enterandroid () {
     var imgandroid = document.getElementById('android');
     imgandroid.style.opacity = '67%';
